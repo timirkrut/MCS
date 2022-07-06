@@ -12,11 +12,11 @@ h1 {
 }
 
 .main-image {
-    background: no-repeat;
+    background-repeat: no-repeat;
     background-image: url(images/840256.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 800px;
 }
 
 .shortcut {
