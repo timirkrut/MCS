@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.top-header {
+    background-color: white;
+    color: #E50043;
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.subheader {
+    height: 157px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    margin-right: 25px;
+}
+
+h1:last-of-type {
+    margin-right: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    background-image: url(images/evian_origins_logo.png);
+    background-size: cover;
+    height: 950px;
+
+    color: #E50043;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.discription {
+    background-color: white;
+    margin: 150px 200px;
+
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+}
+
+.discription > p {
+    padding: 24px;
+}
+
+.product-images {
+    padding: 0 200px 0 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottle > p {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.dis {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dis > img {
+    padding: 0 80px 0 50px;
+}
+
+p{
+    line-height: 29px;
+    letter-spacing: 0.05em;
+}
+
+.footer {
+    background-color: #F8BFC7;
+    padding: 50px;
+
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+}
