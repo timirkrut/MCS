@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: blue;
+    padding: 35px 0 36px 30px;
+
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer {
+    background-color: blue;
+    padding: 32px 30px 33px 30px;
+
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 5px solid #000000;
+    margin: 1%;
+    width: 45%;
+    height: 15rem;
+    padding: 5px;
+
+    font-family: Helvetica;
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Макет для iPhone 12 Pro */
+@media only screen and (max-width: 390px) {
+
+    .box {
+        width: 300px;
+        height: 165px;
+    }
+}
+
+
